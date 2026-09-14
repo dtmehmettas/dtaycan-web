@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" width="880" height="560" role="img" aria-hidden="true">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dff0ee"/><stop offset="1" stop-color="#f3e7d5"/></linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity=".9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="880" height="560" fill="url(#bg)"/>
+<circle cx="633.6" cy="168" r="235.2" fill="url(#glow)"/>
+
+<path transform="translate(440 200) scale(1.1)" d="M-60,-40 C-60,-95 -15,-95 0,-70 C15,-95 60,-95 60,-40 C60,0 45,20 40,60 C36,90 22,95 15,70 C10,50 5,30 0,30 C-5,30 -10,50 -15,70 C-22,95 -36,90 -40,60 C-45,20 -60,0 -60,-40 Z" fill="#ffffff" stroke="#1f7a74" stroke-width="6" stroke-linejoin="round"/> <rect x="418" y="260" width="44" height="150" rx="12" fill="#1f7a74"/>
+<rect x="424" y="285" width="32" height="6" rx="3" fill="#dff0ee"/><rect x="424" y="310" width="32" height="6" rx="3" fill="#dff0ee"/><rect x="424" y="335" width="32" height="6" rx="3" fill="#dff0ee"/><rect x="424" y="360" width="32" height="6" rx="3" fill="#dff0ee"/><rect x="424" y="385" width="32" height="6" rx="3" fill="#dff0ee"/>
+<path d="M240 320 Q440 290 640 320 L640 520 L240 520 Z" fill="#e9d9c3" opacity=".55"/>
+</svg>
