@@ -5,6 +5,9 @@ RewriteRule ^(.*)$ https://dtaycan.com.tr/$1 [R=301,L]
 RewriteCond %{HTTP_HOST} ^www\.dtaycan\.com\.tr$ [NC]
 RewriteRule ^(.*)$ https://dtaycan.com.tr/$1 [R=301,L]
 DirectoryIndex index.html
+DirectorySlash Off
+RewriteRule ^(tedaviler|rehber)/$ /$1 [R=301,L]
+RewriteRule ^(tedaviler|rehber)$ $1/index.html [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
