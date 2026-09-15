@@ -1,8 +1,8 @@
 :root{
   --ink:#1e2a2b; --muted:#5c6b6c; --line:#e3e9e8;
   --bg:#fbfaf7; --alt:#f2f6f5; --paper:#ffffff;
-  --teal:#1f7a74; --teal-d:#155d58; --teal-l:#dff0ee;
-  --sand:#e9d9c3; --gold:#b8935a;
+  --teal:#c4623f; --teal-d:#9c4a2c; --teal-l:#fbe6dc;
+  --sand:#f3d3c3; --gold:#b8935a;
   --serif:"Cormorant Garamond",Georgia,serif; --sans:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
   --r:18px; --sh:0 18px 50px -24px rgba(30,42,43,.28);
 }
@@ -287,20 +287,20 @@ a.card{color:inherit}
 .hero-dots span.on{background:#fff}
 .marquee{position:relative;z-index:1;background:var(--teal);color:#fff;overflow:hidden;white-space:nowrap;padding:.85rem 0;font-weight:600;letter-spacing:.16em;text-transform:uppercase;font-size:.8rem}
 .marquee-track{display:inline-flex;align-items:center;gap:2.2rem;padding-left:2.2rem;animation:marquee 42s linear infinite;will-change:transform}
-.marquee-track i{font-style:normal;color:#e9d9c3;font-size:.9rem}
+.marquee-track i{font-style:normal;color:#f3d3c3;font-size:.9rem}
 .marquee:hover .marquee-track{animation-play-state:paused}
 @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.marquee-track{animation:none}.hero-slide{transition:none}}
 @media (max-width:720px){.hero-full{min-height:auto;padding-top:46vh;padding-bottom:40px}.hero-slide img{object-position:center 12%}.hero-shade{background:linear-gradient(180deg,rgba(21,45,46,.08) 0%,rgba(21,45,46,.35) 34%,rgba(21,45,46,.9) 52%,rgba(21,45,46,.94) 100%)}.hero-full h1{font-size:2.3rem}.hero-full .lead{font-size:1rem}.hero-full .facts{gap:1.2rem}.hero-dots{display:none}}
 
 /* ---- Profesyonel giriş (koyu zemin, yazılan başlık, portre kartı, öne çıkan kartlar) ---- */
-.hero-pro{position:relative;overflow:visible;background:radial-gradient(120% 90% at 80% 10%,#1b4f4c 0%,#102f31 45%,#0b2224 100%);color:#fff;padding:clamp(56px,7vw,96px) 0 0}
+.hero-pro{position:relative;overflow:visible;background:radial-gradient(120% 90% at 80% 10%,#4a2f28 0%,#2a1f1c 45%,#1c1513 100%);color:#fff;padding:clamp(56px,7vw,96px) 0 0}
 .hero-pro:before{display:none}
-.hero-glow{position:absolute;inset:0;overflow:hidden;pointer-events:none}.hero-glow:before{content:"";position:absolute;inset:auto auto -30% -10%;width:60vw;height:60vw;max-width:800px;max-height:800px;border-radius:50%;background:radial-gradient(circle,rgba(31,122,116,.45),transparent 62%);pointer-events:none}
+.hero-glow{position:absolute;inset:0;overflow:hidden;pointer-events:none}.hero-glow:before{content:"";position:absolute;inset:auto auto -30% -10%;width:60vw;height:60vw;max-width:800px;max-height:800px;border-radius:50%;background:radial-gradient(circle,rgba(230,150,120,.35),transparent 62%);pointer-events:none}
 .hero-grid{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(24px,5vw,64px);align-items:center}
-.hero-copy .eyebrow{color:#9fd2cc}
+.hero-copy .eyebrow{color:#f0b8a0}
 .type-h1{font-family:Manrope,Inter,system-ui,sans-serif;font-weight:800;font-size:clamp(2.4rem,5.4vw,4.2rem);line-height:1.08;letter-spacing:-.02em;color:#fff;min-height:2.2em}
-.type-h1 .accent{color:#9fd2cc}
+.type-h1 .accent{color:#f3c3ae}
 .type:after{content:"";display:inline-block;width:.06em;height:.9em;background:currentColor;margin-left:.08em;vertical-align:-.1em;animation:caret .9s steps(1) infinite;opacity:0}
 .type.typing:after{opacity:1}
 @keyframes caret{50%{opacity:0}}
@@ -310,7 +310,7 @@ a.card{color:inherit}
 .btn-outline{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.55);box-shadow:none}
 .btn-outline:hover{background:#fff;color:var(--ink)}
 .hero-portrait{position:relative;justify-self:center;width:min(420px,100%)}
-.portrait-frame{border-radius:210px 210px 26px 26px;overflow:hidden;box-shadow:0 30px 60px -20px rgba(0,0,0,.6),0 0 0 8px rgba(255,255,255,.06);background:#0b2224}
+.portrait-frame{border-radius:210px 210px 26px 26px;overflow:hidden;box-shadow:0 30px 60px -20px rgba(0,0,0,.6),0 0 0 8px rgba(255,255,255,.06);background:#1c1513}
 .portrait-frame img,.portrait-frame picture{display:block;width:100%;height:auto}
 .portrait-badge{position:absolute;left:-18px;bottom:28px;background:#fff;color:var(--ink);padding:.75rem 1.1rem;border-radius:16px;box-shadow:var(--sh);display:flex;flex-direction:column;gap:.1rem}
 .portrait-badge strong{font-family:Manrope,Inter,sans-serif;font-weight:800}
