@@ -259,3 +259,8 @@ a.card{color:inherit}
 @media (max-width:960px){.related-guides .ggrid{grid-template-columns:1fr}}
 
 .gcard picture{display:block}.gcard picture img{aspect-ratio:11/7;object-fit:cover;width:100%}
+
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.6rem}
+.gallery picture,.gallery img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:var(--r);box-shadow:var(--sh)}
+.hero-card picture{display:block}
+@media (max-width:720px){.gallery{grid-template-columns:1fr}}
