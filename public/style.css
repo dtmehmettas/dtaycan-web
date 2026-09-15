@@ -337,3 +337,5 @@ picture{display:block;max-width:100%;min-width:0}picture>img{max-width:100%;heig
 .qr span{display:flex;flex-direction:column;font-size:.85rem;color:var(--muted)}
 .qr strong{font-size:1rem;color:var(--ink);margin-bottom:.15rem}
 @media (max-width:720px){.qrs{grid-template-columns:1fr}}
+
+.sicil td:first-child{white-space:normal;font-family:inherit;font-size:inherit;color:var(--muted);width:42%}
