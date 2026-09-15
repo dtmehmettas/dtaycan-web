@@ -328,3 +328,12 @@ a.card{color:inherit}
 /* picture öğesi img gibi daralsın (grid sütununu şişirmesin) */
 picture{display:block;max-width:100%;min-width:0}picture>img{max-width:100%;height:auto}
 .about-art picture img,.why-art picture img{border-radius:var(--r);box-shadow:var(--sh);width:100%}
+
+/* QR kartları (iletişim) */
+.qrs{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.4rem 0}
+.qr{display:flex;align-items:center;gap:.9rem;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:.8rem;color:inherit;transition:.2s}
+.qr:hover{box-shadow:var(--sh);transform:translateY(-2px)}
+.qr img{width:132px;height:132px;flex:0 0 auto;border-radius:10px;background:#fff}
+.qr span{display:flex;flex-direction:column;font-size:.85rem;color:var(--muted)}
+.qr strong{font-size:1rem;color:var(--ink);margin-bottom:.15rem}
+@media (max-width:720px){.qrs{grid-template-columns:1fr}}
