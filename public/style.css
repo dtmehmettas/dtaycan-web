@@ -68,6 +68,7 @@ p{margin:0 0 1em}
 .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:1.6rem 1.4rem;transition:.25s}
 .card:hover{transform:translateY(-4px);box-shadow:var(--sh);border-color:transparent}
 .card p{color:var(--muted);font-size:.93rem;margin:0}
+.card h2{font-size:1.35rem;margin-bottom:.35em}
 .ico{width:46px;height:46px;border-radius:14px;background:var(--teal-l);color:var(--teal);display:grid;place-items:center;font-size:1.3rem;margin-bottom:1rem}
 
 /* why */
@@ -97,7 +98,7 @@ p{margin:0 0 1em}
 /* form */
 .form-col{display:grid;gap:1.4rem}
 .form{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:1.6rem;display:grid;gap:.9rem;box-shadow:var(--sh)}
-.form h3{margin:0}
+.form h3,.form h2{margin:0;font-size:1.35rem}
 .form .muted{color:var(--muted);font-size:.93rem;margin:0}
 .form label{display:grid;gap:.3rem;font-size:.85rem;font-weight:600;color:var(--muted)}
 .form input,.form select,.form textarea{font:inherit;font-size:1rem;color:var(--ink);padding:.7rem .85rem;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
@@ -177,7 +178,7 @@ a.card{color:inherit}
 .gcard:hover{transform:translateY(-4px);box-shadow:var(--sh)}
 .gcard img{aspect-ratio:11/7;object-fit:cover;width:100%}
 .gcard div{padding:1.2rem 1.3rem 1.4rem}
-.gcard h3{font-size:1.25rem;margin:.4rem 0}
+.gcard h3,.gcard h2{font-size:1.25rem;margin:.4rem 0}
 .gcard p{color:var(--muted);font-size:.92rem;margin:0}
 .tag{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);font-weight:600}
 .cta-band{background:var(--teal-l);padding:clamp(40px,6vw,72px) 0}
