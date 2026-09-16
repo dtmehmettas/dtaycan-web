@@ -55,3 +55,13 @@
     typeInto(h[1], h[1].getAttribute('data-text'), 45, function () { if (p) typeInto(p, p.getAttribute('data-text'), 9); });
   });
 })();
+
+// Basında: YouTube videosu tıklanınca yüklenir (çerezsiz gömme)
+document.querySelectorAll('.yt[data-yt]').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + b.getAttribute('data-yt') + '?autoplay=1&rel=0';
+    f.allow = 'accelerometer; autoplay; encrypted-media; picture-in-picture'; f.allowFullscreen = true; f.title = b.getAttribute('aria-label') || 'Video';
+    b.innerHTML = ''; b.appendChild(f);
+  });
+});
