@@ -42,11 +42,13 @@
   var els = document.querySelectorAll('.type, .type-p');
   if (!els.length) return;
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  els.forEach(function (el) { if (reduce) el.textContent = el.getAttribute('data-text'); });
+  var tgt = function (el) { return el.querySelector('.typed') || el; };
+  els.forEach(function (el) { if (reduce) tgt(el).textContent = el.getAttribute('data-text'); });
   if (reduce) return;
   function typeInto(el, text, speed, done) {
     var i = 0; el.classList.add('typing');
-    (function step() { el.textContent = text.slice(0, ++i); if (i < text.length) setTimeout(step, speed); else { el.classList.remove('typing'); done && done(); } })();
+    var t = tgt(el);
+    (function step() { t.textContent = text.slice(0, ++i); if (i < text.length) setTimeout(step, speed); else { el.classList.remove('typing'); done && done(); } })();
   }
   var h = document.querySelectorAll('.type'); var p = document.querySelector('.type-p');
   typeInto(h[0], h[0].getAttribute('data-text'), 45, function () {
