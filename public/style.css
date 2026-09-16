@@ -380,3 +380,55 @@ picture{display:block;max-width:100%;min-width:0}picture>img{max-width:100%;heig
 .brand span:last-child{white-space:nowrap}
 @media (max-width:1100px){.menu{gap:1.1rem;font-size:.9rem}.brand{font-size:1.15rem}}
 @media (max-width:900px){.menu{gap:.8rem;font-size:.86rem}.menu .btn{padding:.6rem 1rem;font-size:.86rem}}
+
+/* ---- Dil menüsü ---- */
+.lang{position:relative;margin-left:.4rem}
+.lang-btn{background:transparent;border:1.5px solid var(--line);border-radius:999px;padding:.45rem .8rem;font:inherit;font-size:.85rem;font-weight:600;color:var(--ink);cursor:pointer;letter-spacing:.04em}
+.lang-btn:hover{border-color:var(--teal);color:var(--teal)}
+.lang-menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:var(--sh);padding:.4rem;min-width:170px;z-index:60}
+.lang.open .lang-menu{display:grid}
+.lang-menu a{padding:.5rem .8rem;border-radius:9px;font-size:.92rem;white-space:nowrap}
+.lang-menu a:hover{background:var(--teal-l);color:var(--teal-d)}
+.lang-menu a.on{color:var(--teal);font-weight:600}
+@media (max-width:720px){
+  .lang{margin:.6rem 0 0}
+  .lang-menu{position:static;display:grid;grid-template-columns:1fr 1fr;box-shadow:none;border:0;padding:0;margin-top:.4rem}
+  .lang-btn{display:none}
+}
+/* ---- Sağdan sola diller ---- */
+[dir=rtl]{--sans:"Segoe UI",Tahoma,"Noto Naskh Arabic","Noto Sans Arabic",Arial,sans-serif;--serif:"Segoe UI",Tahoma,"Noto Naskh Arabic",serif}
+[dir=rtl] body,[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3{letter-spacing:0}
+[dir=rtl] .type-h1{font-family:var(--sans);line-height:1.3}
+[dir=rtl] .typed{left:auto;right:0}
+[dir=rtl] .lang-menu{right:auto;left:0}
+[dir=rtl] .prose ul,[dir=rtl] .prose ol,[dir=rtl] .num{padding-left:0;padding-right:1.3rem}
+[dir=rtl] .check li{padding-left:0;padding-right:1.7rem}
+[dir=rtl] .check li:before{left:auto;right:0}
+[dir=rtl] .why div{padding-left:0;padding-right:1.2rem;border-left:0;border-right:3px solid var(--sand)}
+[dir=rtl] .timeline{border-left:0;border-right:2px solid var(--sand)}
+[dir=rtl] .timeline li{padding:0 1.4rem 1.2rem 0}
+[dir=rtl] .timeline li:before{left:auto;right:-7px}
+[dir=rtl] .answer-box,[dir=rtl] .note-box{border-left:0;border-right:4px solid var(--teal);border-radius:14px 0 0 14px}
+[dir=rtl] .marquee-track{animation-direction:reverse}
+[dir=rtl] .cmp th,[dir=rtl] .cmp td{text-align:right}
+[dir=rtl] .hcard,[dir=rtl] .card{text-align:right}
+/* Kiril: yerel fontlar (aşağıda @font-face) */
+/* Kiril alt kümeleri (ru/bg) */
+@font-face{font-family:"Cormorant Garamond";font-style:italic;font-weight:500;font-display:swap;src:url(/fonts/cormorant-garamond-500i-cyrillic-ext.woff2) format("woff2");unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}
+@font-face{font-family:"Cormorant Garamond";font-style:italic;font-weight:500;font-display:swap;src:url(/fonts/cormorant-garamond-500i-cyrillic.woff2) format("woff2");unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:"Cormorant Garamond";font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/cormorant-garamond-500-cyrillic-ext.woff2) format("woff2");unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}
+@font-face{font-family:"Cormorant Garamond";font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/cormorant-garamond-500-cyrillic.woff2) format("woff2");unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:"Cormorant Garamond";font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/cormorant-garamond-600-cyrillic-ext.woff2) format("woff2");unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}
+@font-face{font-family:"Cormorant Garamond";font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/cormorant-garamond-600-cyrillic.woff2) format("woff2");unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:"Inter";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/inter-400-cyrillic-ext.woff2) format("woff2");unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}
+@font-face{font-family:"Inter";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/inter-400-cyrillic.woff2) format("woff2");unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:"Inter";font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/inter-500-cyrillic-ext.woff2) format("woff2");unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}
+@font-face{font-family:"Inter";font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/inter-500-cyrillic.woff2) format("woff2");unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:"Inter";font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/inter-600-cyrillic-ext.woff2) format("woff2");unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}
+@font-face{font-family:"Inter";font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/inter-600-cyrillic.woff2) format("woff2");unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/manrope-600-cyrillic-ext.woff2) format("woff2");unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/manrope-600-cyrillic.woff2) format("woff2");unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/manrope-700-cyrillic-ext.woff2) format("woff2");unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/manrope-700-cyrillic.woff2) format("woff2");unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:800;font-display:swap;src:url(/fonts/manrope-800-cyrillic-ext.woff2) format("woff2");unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:800;font-display:swap;src:url(/fonts/manrope-800-cyrillic.woff2) format("woff2");unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}

@@ -65,3 +65,10 @@ document.querySelectorAll('.yt[data-yt]').forEach(function (b) {
     b.innerHTML = ''; b.appendChild(f);
   });
 });
+
+// Dil menüsü
+document.querySelectorAll('.lang').forEach(function (w) {
+  var b = w.querySelector('.lang-btn'); if (!b) return;
+  b.addEventListener('click', function (e) { e.stopPropagation(); var o = w.classList.toggle('open'); b.setAttribute('aria-expanded', o ? 'true' : 'false'); });
+  document.addEventListener('click', function () { w.classList.remove('open'); b.setAttribute('aria-expanded', 'false'); });
+});
