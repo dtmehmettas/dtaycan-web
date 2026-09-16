@@ -18,6 +18,9 @@ ErrorDocument 404 /404.html
 <FilesMatch ".html$">
 Header set Cache-Control "no-cache, must-revalidate"
 </FilesMatch>
+<FilesMatch ".(jpe?g|png|webp|svg)$">
+Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
 </IfModule>
 <IfModule mod_expires.c>
 ExpiresActive On
