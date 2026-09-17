@@ -1,8 +1,8 @@
 # Dt. Aycan Işık Taş — Diş Hekimi, Esenyurt / İstanbul
 
-> Özel DentTEK Ağız ve Diş Sağlığı Polikliniği'nde (Cumhuriyet Mah. Nazım Hikmet Blv. No:89/2, Esenyurt) 2014'ten bu yana hasta kabul eden diş hekiminin bilgilendirme sitesi. İçerik Türkçe; Sağlık Hizmetlerinde Tanıtım ve Bilgilendirme Yönetmeliği'ne uygun, tanıtım değil bilgilendirme amaçlıdır.
+> Özel DentTEK Ağız ve Diş Sağlığı Polikliniği'nde (Cumhuriyet Mah. Nazım Hikmet Blv. No:89/2, Esenyurt) 2014'ten bu yana hasta kabul eden diş hekiminin bilgilendirme sitesi. İçerik Türkçe olup 7 dilde çevirisi vardır (EN, DE, FR, RU, BG, AR, FA; sayfalar hreflang ile bağlı); Sağlık Hizmetlerinde Tanıtım ve Bilgilendirme Yönetmeliği'ne uygun, tanıtım değil bilgilendirme amaçlıdır.
 
-İletişim: 0212 853 53 41 · WhatsApp 0543 558 85 19 · info@dtaycan.com.tr · Pzt–Cmt 09:00–19:00
+İletişim: 0212 853 53 41 · WhatsApp 0543 558 85 19 · info@dtaycan.com.tr · Pzt–Cum 09:00–22:00 · Cmt 09:00–20:00
 
 ## Ana sayfalar
 - [Hakkında](https://dtaycan.com.tr/hakkinda): eğitim (Süleyman Demirel Üni. Diş Hekimliği 2014), deneyim, kurslar, üyelikler
@@ -61,3 +61,12 @@
 - [Ağız gargarası gerekli mi? Hangi gargara, ne zaman, ne kadar süre](https://dtaycan.com.tr/rehber/agiz-gargarasi-nasil-kullanilir): Gargara fırçalamanın yerini tutar mı, florürlü/antiseptik/klorheksidinli gargaraların farkı, ne zaman kullanılmalı, çocuklar ve hamileler için notlar, yaygın hatalar.
 - [Çocuklarda diş çürüğü nasıl önlenir? Flor, fissür örtücü ve beslenme](https://dtaycan.com.tr/rehber/cocuklarda-dis-curugu-nasil-onlenir): Erken çocukluk çürüğünün nedenleri (biberon, gece emzirme, atıştırma), flor vernik ve fissür örtücünün ne zaman yapıldığı, süt dişi çürüğünün neden tedavi edildiği ve yaşa göre koruma takvimi.
 - [Diş kaplaması kaç yıl dayanır? Kaplama sonrası ağrı, bakım ve yenileme zamanı](https://dtaycan.com.tr/rehber/dis-kaplama-omru-ve-bakimi): Porselen, zirkonyum ve metal destekli kaplamaların ortalama ömrü, kaplama sonrası hassasiyet ve ağrı nedenleri, kaplamanın altında çürük nasıl anlaşılır, düşen kaplama ve yenileme belirtileri.
+
+## Diğer diller (aynı içerik; her dilde kendi diş hekimliği terminolojisiyle)
+- English: [ana sayfa](https://dtaycan.com.tr/en/) · [tedaviler](https://dtaycan.com.tr/en/treatments) · [rehber](https://dtaycan.com.tr/en/guides)
+- Deutsch: [ana sayfa](https://dtaycan.com.tr/de/) · [tedaviler](https://dtaycan.com.tr/de/treatments) · [rehber](https://dtaycan.com.tr/de/guides)
+- Français: [ana sayfa](https://dtaycan.com.tr/fr/) · [tedaviler](https://dtaycan.com.tr/fr/treatments) · [rehber](https://dtaycan.com.tr/fr/guides)
+- Русский: [ana sayfa](https://dtaycan.com.tr/ru/) · [tedaviler](https://dtaycan.com.tr/ru/treatments) · [rehber](https://dtaycan.com.tr/ru/guides)
+- Български: [ana sayfa](https://dtaycan.com.tr/bg/) · [tedaviler](https://dtaycan.com.tr/bg/treatments) · [rehber](https://dtaycan.com.tr/bg/guides)
+- العربية: [ana sayfa](https://dtaycan.com.tr/ar/) · [tedaviler](https://dtaycan.com.tr/ar/treatments) · [rehber](https://dtaycan.com.tr/ar/guides)
+- فارسی: [ana sayfa](https://dtaycan.com.tr/fa/) · [tedaviler](https://dtaycan.com.tr/fa/treatments) · [rehber](https://dtaycan.com.tr/fa/guides)
