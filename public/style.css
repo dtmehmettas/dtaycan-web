@@ -213,6 +213,8 @@ a.card{color:inherit}
 .side-links{display:flex;flex-wrap:wrap;gap:.4rem}
 .side-links a{font-size:.85rem;background:var(--alt);padding:.35rem .7rem;border-radius:999px}
 .side-links a:hover{background:var(--teal-l);color:var(--teal-d)}
+.prose a{color:var(--teal-d);text-decoration:underline;text-underline-offset:.15em}
+.prose a:hover{color:var(--teal)}
 .prose h2{font-size:1.6rem;margin-top:2rem}
 .prose ul,.prose ol{padding-left:1.3rem}
 .prose li{margin:.3rem 0}
@@ -235,7 +237,7 @@ a.card{color:inherit}
 .foot-grid a:hover{color:var(--teal)}
 .foot-grid .brand{margin-bottom:.6rem}
 .foot-bottom{border-top:1px solid var(--line);padding-top:1.2rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.8rem}
-.foot-bottom a{color:var(--teal-d)}
+.foot-bottom a{color:var(--teal-d);text-decoration:underline}
 @media (max-width:960px){
   .ggrid,.grid.three{grid-template-columns:1fr 1fr}
   .side{position:static}
@@ -272,7 +274,7 @@ a.card{color:inherit}
 .answer-box p{margin:0}
 .sources{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--line);font-size:.9rem}
 .sources ul{padding-left:1.2rem;margin:.4rem 0 0}
-.sources a{color:var(--teal-d)}
+.sources a{color:var(--teal-d);text-decoration:underline}
 .related-guides{margin-top:2rem}
 .related-guides strong{display:block;margin-bottom:.8rem}
 .related-guides .ggrid{grid-template-columns:repeat(3,1fr)}
