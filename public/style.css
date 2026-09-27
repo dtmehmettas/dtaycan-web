@@ -39,7 +39,7 @@ p{margin:0 0 1em}
 .wrap{width:min(1140px,92vw);margin:0 auto}
 .narrow{width:min(760px,92vw)}
 .center{text-align:center}
-.eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);font-weight:600;margin-bottom:.9em}
+.eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--teal-d);font-weight:600;margin-bottom:.9em}
 .lead{font-size:1.12rem;color:var(--muted);max-width:52ch}
 .section{padding:clamp(64px,9vw,120px) 0}
 .section.alt{background:var(--alt)}
